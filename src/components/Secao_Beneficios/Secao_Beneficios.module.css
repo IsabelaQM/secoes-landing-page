@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.25;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.beneficio {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.beneficio .texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.beneficio.invertido {
+    flex-direction: row-reverse;
+}
+
+.secaoBeneficios {
+  background-image: url('/img/imgListras.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; 
+  height: 1000px;
+  padding: 20px 100px;
+  width: 100%;
+}
+
+.containerBeneficios{
+    width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+
+.containerBeneficios :nth-child(1){
+    text-align: right;
+}
+
+.containerBeneficios :nth-child(2){
+    text-align: right;
+}
+
+
+
+.beneficio .imagem {
+  flex: 1;
+  padding: 20px;
+}
+
+.imagem{
+  max-width: 60%;
+  height: auto;
+}
+
+.tituloSecao {
+    color: #00A54F;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* Estilos específicos para os títulos de benefícios */
+.beneficio:nth-child(1) h2 {
+    color: #00A54F; 
+    text-transform: uppercase;
+    align-items: right;
+    text-align: right;
+}
+
+/* .conatainerBeneficios:nth-child(1)h2 h3 p {
+    align-items: right;
+    text-align: right;
+}
+
+.beneficio:nth-child(1) h2 h3 p {
+    align-items: right;
+    text-align: right;
+} */
+
+.beneficio:nth-child(2) h2 {
+    color: #E77D1D; 
+    text-transform: uppercase;
+    align-items: left;
+}
+
+.beneficio h3 {
+    color: gray; 
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.beneficio p {
+    padding-top: 20px;
+}
+
+.beneficio h2, h3, p {
+    text-align: right;
+}
